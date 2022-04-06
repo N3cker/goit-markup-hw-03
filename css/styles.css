@@ -28,7 +28,9 @@ body a {
 }
 
 body section {
-  padding: 90px 215px 0 215px;
+  /* padding: 90px 215px 0 215px; */
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 body section:last-child {
@@ -36,7 +38,7 @@ body section:last-child {
 }
 
 body footer {
-  padding: 60px 215px;
+  padding: 60px 0;
 }
 
 body ul {
@@ -45,6 +47,11 @@ body ul {
 
 body h2 {
   font-size: 36px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
 }
 
 /* Buttons */
@@ -142,7 +149,12 @@ header .navbar {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 0 215px;
+  margin: 0 auto;
+  width: 1200px;
+  
+}
+
+header .navbar-wrapper {
   border: 1px solid var(--color-nav-border);
 }
 
